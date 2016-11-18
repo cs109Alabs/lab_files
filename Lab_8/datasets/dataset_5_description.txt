@@ -1,0 +1,15 @@
+Attributes:
+X0: Census code (3001; 3123; 3288; 3298; 3420; 3530; 3540; 3585; 3652; 3662; 3817; 3827)
+X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
+X2: Gender (1 = male; 2 = female).
+X3: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).
+X4: Marital status (1 = married; 2 = single; 3 = others).
+X5: Age (year).
+X6 - X11: History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows: X6 = the repayment status in September, 2005; X7 = the repayment status in August, 2005; . . .;X11 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.
+X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in September, 2005; X13 = amount of bill statement in August, 2005; . . .; X17 = amount of bill statement in April, 2005.
+X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
+
+Demographic information in percentage:
+Census code 	Male	Female	Caucasian	African American	Asian	Hispanic/Latino	Other race3001	51.5	48.5	21.6	3.5	46.1	18.4	10.43123	51.3	48.7	40.6	0.8	15.5	34.2	9.03288	50.2	49.8	53.6	2.2	19.1	14.6	10.53298	50.6	49.4	92.1	4.2	1.1	2.1	0.43420	51.7	48.3	91.7	3.5	2.4	2.3	0.1
+3530	50.8	49.2	88.7	4.5	1.7	4.1	1.13540	51.5	48.5	89.3	2.6	5.4	0.7	1.93585	48.8	51.2	28.0	52.2	6.7	11.8	1.33652	48.5	51.5	31.9	24.9	8.6	30.6	3.93662	52.4	47.6	86.8	3.4	2.6	5.9	1.33817	49.3	50.7	86.7	5.2	4.6	2.6	1.0
+3827	49.5	50.5	13.7	34.1	7.6	37.2	7.4
